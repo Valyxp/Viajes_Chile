@@ -23,13 +23,16 @@
   </head>
   <body>
     <!--BARRA DE NAVEGACION-->
-    <nav
-      id="navbar-example2"
-      class="navbar fixed-top bg-body-tertiary navbar-light bg-light px-3"
-    >
-      <div class="container-fluid">
-        <img src="assets/img/viajes.svg" alt="" height="30px" />
-        <a class="navbar-brand" href="#">Viajes Chile</a>
+
+    <nav id="navbar-example2" class="navbar fixed-top navbar-light px-3">
+      <div id="navbar" class="container-fluid">
+        <img src="assets/img/viajes.svg" alt="Logo" />
+        <a id="viaje" class="navbar-brand" href="#">Viajes Chile</a>
+
+        <!-- <button class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </button> -->
+
         <ul class="nav nav-pills">
           <li class="nav-item">
             <a class="nav-link" href="#scrollspyHeading1">Inicio</a>
@@ -133,44 +136,56 @@
 
       <!-- QUIENES SOMOS -->
       <div id="scrollspyHeading2">
-        <section class="container text-center p-5">
-          <h2 class="fw-bold text-light mb-3 text-center">Mis trabajos</h2>
-          <div class="row">
-            <div class="col-10 col-sm-4 col-md-4 col-lg-4 p-3">
-              <div class="card text-center" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+        <section id="quienes-somos" class="container-fluid">
+          <h5>¿QUIÉNES SOMOS?</h5>
+
+          <div id="que-hacemos" class="row">
+            <div class="col-12 col-md-4">
+              <div id="avion">
+                <i class="fa-solid fa-plane fa-2xl" style="color: #ffffff"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempore, sapiente voluptates delectus facere dignissimos nemo
+                veniam animi quae deserunt corporis, aspernatur asperiores ipsam
+                doloremque architecto eum quis ex repudiandae eius. Lorem ipsum,
+                dolor sit amet consectetur adipisicing elit. In repellendus nam,
+                fugiat nulla ipsa assumenda harum inventore rerum non eum cum
+                dolor delectus at minima. Dolore maiores nostrum doloremque
+                facilis.
+              </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum
+                tenetur facilis totam eos cupiditate ullam aliquam quam pariatur
+                impedit, ipsum non eius ducimus eaque porro beatae ad omnis
+                distinctio qui? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Reprehenderit inventore quo tenetur autem
+                minima accusamus modi voluptates, dolor enim. Sapiente assumenda
+                fuga perferendis incidunt dolorum placeat alias minus inventore
+                veniam.
+              </p>
+              <div id="montaña">
+                <i
+                  class="fa-solid fa-mountain fa-2xl"
+                  style="color: #ffffff"
+                ></i>
               </div>
             </div>
-            <div class="col-10 col-sm-4 col-md-4 col-lg-4 p-3">
-              <div class="card text-center" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+            <div class="col-12 col-md-4">
+              <div id="ruta">
+                <i class="fa-solid fa-route fa-2xl" style="color: #ffffff"></i>
               </div>
-            </div>
-            <div class="col-10 col-sm-4 col-md-4 col-lg-4 p-3">
-              <div class="card text-center" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    With supporting text below as a natural lead-in to
-                    additional content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                minima deserunt aliquam vero velit quidem odio perspiciatis quas
+                unde natus, cupiditate nostrum, doloribus modi est tenetur
+                atque, possimus temporibus dolorem! Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Ab hic quo rerum velit doloribus
+                blanditiis a totam repellendus! Ducimus, maiores! Esse, tenetur
+                cupiditate delectus possimus hic praesentium et sequi deleniti!
+              </p>
             </div>
           </div>
         </section>
@@ -178,9 +193,8 @@
 
       <!-- DESTACADOS -->
       <div id="scrollspyHeading3">
-        <section id="Mis-trabajos" class="container">
-          <h2 class="fw-bold text-light mb-3 text-center">Mis trabajos</h2>
-
+        <section id="destacados" class="container">
+          <h5 class="fw-bold mb-3 my-4 p-2 m-5 text text-center">DESTACADOS</h5>
           <div class="row">
             <div class="col-12 col-sm-3 py-2">
               <div class="card">
@@ -245,7 +259,7 @@
       <!-- CONTACTO -->
       <div id="scrollspyHeading4">
         <section id="Contacto" class="container">
-          <h2 class="display-4 my-4 text-center fs-1">CONTACTO</h2>
+          <h5 class="fw-bold my-4 p-3 m-2 text-center">CONTACTO</h5>
 
           <form>
             <div class="form-group mb-4">
