@@ -6,42 +6,27 @@
 }
 
 /* Navbar */
-.nav {
-  max-width: 992px;
-  margin: 0 auto;
-}
-
 #navbar a {
   color: white;
   background-color: transparent;
 }
 
 .navbar img {
-  margin-left: 100px;
+  margin-left: px;
   height: 40px;
 }
 
-#viaje {
-  margin-right: 600px;
-  padding: 4px 8px;
+.viajes-chile {
+  margin-left: px;
+  padding: 8px 16px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 #navbar a:hover {
-  background-color: rosybrown;
+  background-color: #63b4b8;
   transition: 0.5s;
 }
-
-/* .nav-toggle {
-  color: white;
-  background: none;
-  border: none;
-  font-size: 30px;
-  padding: 0 20px;
-  line-height: 60px;
-
-  display: none;
-} */
 
 /* Quienes Somos */
 #quienes-somos {
@@ -63,21 +48,21 @@
 }
 
 #avion {
-  background-color: rosybrown;
+  background-color: #63b4b8;
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
 }
 
 #montaña {
-  background-color: rosybrown;
+  background-color: #63b4b8;
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
 }
 
 #ruta {
-  background-color: rosybrown;
+  background-color: #63b4b8;
   padding: 10px;
   margin-top: 20px;
   border-radius: 20px;
@@ -99,7 +84,7 @@
 }
 
 .card-body {
-  background-color: rosybrown;
+  background-color: #63b4b8;
 }
 
 #bosque {
@@ -146,7 +131,7 @@
 }
 
 #boton {
-  background-color: rosybrown;
+  background-color: #63b4b8;
   border: 0;
   margin-top: 20px;
   margin-bottom: 40px;
@@ -154,7 +139,7 @@
 
 /* DESTACADOS */
 #footer {
-  background-color: rosybrown;
+  background-color: #63b4b8;
   display: flex;
   justify-content: space-between;
 }
@@ -175,7 +160,7 @@
 
 .red-social {
   font-size: 15px;
-  margin: 15px;
+  margin: 10px;
   padding-top: 10px;
   display: flex;
 }
