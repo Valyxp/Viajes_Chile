@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-/* body {
-  font-family: sans-serif;
-} */
-
 /* Navbar */
 .nav {
   max-width: 992px;
@@ -86,4 +82,100 @@
   margin-top: 20px;
   border-radius: 20px;
 }
-/* FOOTER */
+
+/* DESTACADOS */
+
+#destacados {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 90px;
+}
+
+#destacado {
+  padding: 10px;
+  font-style: bold;
+  margin-bottom: 50px;
+}
+
+.card-body {
+  background-color: rosybrown;
+}
+
+#bosque {
+  color: white;
+  text-align: left;
+}
+
+#planicie {
+  color: white;
+  text-align: left;
+}
+
+#lago {
+  color: white;
+  text-align: left;
+}
+
+#patagonia {
+  color: white;
+  text-align: left;
+}
+
+/* DESTACADOS */
+#Contacto {
+  background-color: black;
+}
+
+#Contacto h5 {
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+#mensaje {
+  color: white;
+}
+
+#electronico {
+  color: white;
+}
+
+#nombre {
+  color: white;
+}
+
+#boton {
+  background-color: rosybrown;
+  border: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* DESTACADOS */
+#footer {
+  background-color: rosybrown;
+  display: flex;
+  justify-content: space-between;
+}
+
+#viajes-footer {
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+}
+
+.red-social {
+  font-size: 15px;
+  margin: 15px;
+  padding-top: 10px;
+  display: flex;
+}
